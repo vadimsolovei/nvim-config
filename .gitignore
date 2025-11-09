@@ -1,0 +1,18 @@
+# Lazy.nvim plugin directory
+lazy-lock.json
+
+# Neovim swap and backup files
+*.swp
+*.swo
+*~
+.netrwhist
+
+# LSP and Mason installed tools
+.luarc.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
