@@ -202,6 +202,18 @@ Modular collection of small plugins:
   - `<C-e>` - Toggle Harpoon menu
   - `<C-h>`, `<C-t>`, `<C-n>`, `<C-s>` - Jump to files 1-4
 
+**[flash.nvim](https://github.com/folke/flash.nvim)**
+- Enhanced navigation with labeled jump points
+- Jump to any visible location quickly
+- Treesitter-aware jumping for semantic navigation
+- **Keybindings:**
+  - `s` - Flash jump (jump to any visible location)
+  - `S` - Flash Treesitter (jump to treesitter nodes like functions, classes)
+  - `r` - Remote Flash (operator-pending mode)
+  - `R` - Treesitter Search (visual/operator-pending modes)
+  - Enhanced `f`, `F`, `t`, `T`, `;`, `,` motions with labels
+  - `<C-s>` - Toggle Flash Search (in command mode during `/` search)
+
 ### Editor Enhancements
 
 **[nvim-autopairs](https://github.com/windwp/nvim-autopairs)**
